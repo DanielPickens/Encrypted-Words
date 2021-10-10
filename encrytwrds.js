@@ -16,10 +16,10 @@ function findEncryptedWord(s) {
     //      that's to the LEFT of the middle character (if non-empty) 
     if (mid > 0) {
  
-        //  generate left sub string ****
+        //  generate left sub string 
         let ls = s.substring(0, mid);
  
-        // **** encrypt and append ***
+        //  encrypt and append 
         r += findEncryptedWord(ls);
     }
  
