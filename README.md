@@ -26,4 +26,4 @@ S = "abcxcba"
 R = "xbacbca"
 Example 4
 S = "facebook"
-R = "eafcobok" "
+R = "eafcobok "
